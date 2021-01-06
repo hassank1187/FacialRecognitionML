@@ -11,7 +11,7 @@ names = []
 encodings = []
 knownEncodings =[]
 knownNames = []
-
+m ='test'
 #if any names and encodings were previously gathered, open them
 if(os.path.exists("names.pickle")):
     with open("names.pickle",'rb') as nameFile:
